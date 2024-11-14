@@ -1,0 +1,1712 @@
+[
+   
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 4,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 4,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 4,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 4,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 5,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 5,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 5,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 5,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add crontab",
+            "content_type": 6,
+            "codename": "add_crontabschedule"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change crontab",
+            "content_type": 6,
+            "codename": "change_crontabschedule"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete crontab",
+            "content_type": 6,
+            "codename": "delete_crontabschedule"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view crontab",
+            "content_type": 6,
+            "codename": "view_crontabschedule"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add interval",
+            "content_type": 7,
+            "codename": "add_intervalschedule"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change interval",
+            "content_type": 7,
+            "codename": "change_intervalschedule"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete interval",
+            "content_type": 7,
+            "codename": "delete_intervalschedule"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view interval",
+            "content_type": 7,
+            "codename": "view_intervalschedule"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add periodic task",
+            "content_type": 8,
+            "codename": "add_periodictask"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change periodic task",
+            "content_type": 8,
+            "codename": "change_periodictask"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete periodic task",
+            "content_type": 8,
+            "codename": "delete_periodictask"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view periodic task",
+            "content_type": 8,
+            "codename": "view_periodictask"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add periodic tasks",
+            "content_type": 9,
+            "codename": "add_periodictasks"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change periodic tasks",
+            "content_type": 9,
+            "codename": "change_periodictasks"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete periodic tasks",
+            "content_type": 9,
+            "codename": "delete_periodictasks"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view periodic tasks",
+            "content_type": 9,
+            "codename": "view_periodictasks"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 37,
+        "fields": {
+            "name": "Can add solar event",
+            "content_type": 10,
+            "codename": "add_solarschedule"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 38,
+        "fields": {
+            "name": "Can change solar event",
+            "content_type": 10,
+            "codename": "change_solarschedule"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 39,
+        "fields": {
+            "name": "Can delete solar event",
+            "content_type": 10,
+            "codename": "delete_solarschedule"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 40,
+        "fields": {
+            "name": "Can view solar event",
+            "content_type": 10,
+            "codename": "view_solarschedule"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 41,
+        "fields": {
+            "name": "Can add clocked",
+            "content_type": 11,
+            "codename": "add_clockedschedule"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 42,
+        "fields": {
+            "name": "Can change clocked",
+            "content_type": 11,
+            "codename": "change_clockedschedule"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 43,
+        "fields": {
+            "name": "Can delete clocked",
+            "content_type": 11,
+            "codename": "delete_clockedschedule"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 44,
+        "fields": {
+            "name": "Can view clocked",
+            "content_type": 11,
+            "codename": "view_clockedschedule"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 45,
+        "fields": {
+            "name": "Can add сообщение",
+            "content_type": 12,
+            "codename": "add_messageinfo"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 46,
+        "fields": {
+            "name": "Can change сообщение",
+            "content_type": 12,
+            "codename": "change_messageinfo"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 47,
+        "fields": {
+            "name": "Can delete сообщение",
+            "content_type": 12,
+            "codename": "delete_messageinfo"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 48,
+        "fields": {
+            "name": "Can view сообщение",
+            "content_type": 12,
+            "codename": "view_messageinfo"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 49,
+        "fields": {
+            "name": "Can add пользователь",
+            "content_type": 13,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 50,
+        "fields": {
+            "name": "Can change пользователь",
+            "content_type": 13,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 51,
+        "fields": {
+            "name": "Can delete пользователь",
+            "content_type": 13,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 52,
+        "fields": {
+            "name": "Can view пользователь",
+            "content_type": 13,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 53,
+        "fields": {
+            "name": "Can add клиент",
+            "content_type": 14,
+            "codename": "add_clientservise"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 54,
+        "fields": {
+            "name": "Can change клиент",
+            "content_type": 14,
+            "codename": "change_clientservise"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 55,
+        "fields": {
+            "name": "Can delete клиент",
+            "content_type": 14,
+            "codename": "delete_clientservise"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 56,
+        "fields": {
+            "name": "Can view клиент",
+            "content_type": 14,
+            "codename": "view_clientservise"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 57,
+        "fields": {
+            "name": "Can add Рассылка",
+            "content_type": 15,
+            "codename": "add_sendingmessage"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 58,
+        "fields": {
+            "name": "Can change Рассылка",
+            "content_type": 15,
+            "codename": "change_sendingmessage"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 59,
+        "fields": {
+            "name": "Can delete Рассылка",
+            "content_type": 15,
+            "codename": "delete_sendingmessage"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 60,
+        "fields": {
+            "name": "Can view Рассылка",
+            "content_type": 15,
+            "codename": "view_sendingmessage"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 61,
+        "fields": {
+            "name": "Can add Результаты рассылки",
+            "content_type": 16,
+            "codename": "add_resultssendmessages"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 62,
+        "fields": {
+            "name": "Can change Результаты рассылки",
+            "content_type": 16,
+            "codename": "change_resultssendmessages"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 63,
+        "fields": {
+            "name": "Can delete Результаты рассылки",
+            "content_type": 16,
+            "codename": "delete_resultssendmessages"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 64,
+        "fields": {
+            "name": "Can view Результаты рассылки",
+            "content_type": 16,
+            "codename": "view_resultssendmessages"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 65,
+        "fields": {
+            "name": "Can add пост",
+            "content_type": 17,
+            "codename": "add_posts"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 66,
+        "fields": {
+            "name": "Can change пост",
+            "content_type": 17,
+            "codename": "change_posts"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 67,
+        "fields": {
+            "name": "Can delete пост",
+            "content_type": 17,
+            "codename": "delete_posts"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 68,
+        "fields": {
+            "name": "Can view пост",
+            "content_type": 17,
+            "codename": "view_posts"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 69,
+        "fields": {
+            "name": "Can add комментарий",
+            "content_type": 18,
+            "codename": "add_postcomment"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 70,
+        "fields": {
+            "name": "Can change комментарий",
+            "content_type": 18,
+            "codename": "change_postcomment"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 71,
+        "fields": {
+            "name": "Can delete комментарий",
+            "content_type": 18,
+            "codename": "delete_postcomment"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 72,
+        "fields": {
+            "name": "Can view комментарий",
+            "content_type": 18,
+            "codename": "view_postcomment"
+        }
+    },
+    {
+        "model": "auth.group",
+        "pk": 1,
+        "fields": {
+            "name": "content-manager",
+            "permissions": [
+                69,
+                70,
+                65,
+                66,
+                52
+            ]
+        }
+    },
+    {
+        "model": "auth.group",
+        "pk": 2,
+        "fields": {
+            "name": "moderator",
+            "permissions": [
+                58,
+                60,
+                46,
+                48,
+                54,
+                52
+            ]
+        }
+    },
+    {
+        "model": "django_celery_beat.intervalschedule",
+        "pk": 1,
+        "fields": {
+            "every": 900,
+            "period": "seconds"
+        }
+    },
+    {
+        "model": "django_celery_beat.intervalschedule",
+        "pk": 2,
+        "fields": {
+            "every": 1800,
+            "period": "seconds"
+        }
+    },
+    {
+        "model": "django_celery_beat.intervalschedule",
+        "pk": 3,
+        "fields": {
+            "every": 3600,
+            "period": "seconds"
+        }
+    },
+    {
+        "model": "django_celery_beat.intervalschedule",
+        "pk": 4,
+        "fields": {
+            "every": 7200,
+            "period": "seconds"
+        }
+    },
+    {
+        "model": "django_celery_beat.intervalschedule",
+        "pk": 5,
+        "fields": {
+            "every": 10800,
+            "period": "seconds"
+        }
+    },
+    {
+        "model": "django_celery_beat.intervalschedule",
+        "pk": 6,
+        "fields": {
+            "every": 14400,
+            "period": "seconds"
+        }
+    },
+    {
+        "model": "django_celery_beat.intervalschedule",
+        "pk": 7,
+        "fields": {
+            "every": 18000,
+            "period": "seconds"
+        }
+    },
+    {
+        "model": "django_celery_beat.intervalschedule",
+        "pk": 8,
+        "fields": {
+            "every": 21600,
+            "period": "seconds"
+        }
+    },
+    {
+        "model": "django_celery_beat.intervalschedule",
+        "pk": 9,
+        "fields": {
+            "every": 43200,
+            "period": "seconds"
+        }
+    },
+    {
+        "model": "django_celery_beat.intervalschedule",
+        "pk": 10,
+        "fields": {
+            "every": 1,
+            "period": "days"
+        }
+    },
+    {
+        "model": "django_celery_beat.intervalschedule",
+        "pk": 11,
+        "fields": {
+            "every": 2,
+            "period": "days"
+        }
+    },
+    {
+        "model": "django_celery_beat.intervalschedule",
+        "pk": 12,
+        "fields": {
+            "every": 3,
+            "period": "days"
+        }
+    },
+    {
+        "model": "django_celery_beat.intervalschedule",
+        "pk": 13,
+        "fields": {
+            "every": 4,
+            "period": "days"
+        }
+    },
+    {
+        "model": "django_celery_beat.intervalschedule",
+        "pk": 14,
+        "fields": {
+            "every": 5,
+            "period": "days"
+        }
+    },
+    {
+        "model": "django_celery_beat.intervalschedule",
+        "pk": 15,
+        "fields": {
+            "every": 6,
+            "period": "days"
+        }
+    },
+    {
+        "model": "django_celery_beat.intervalschedule",
+        "pk": 16,
+        "fields": {
+            "every": 7,
+            "period": "days"
+        }
+    },
+    {
+        "model": "django_celery_beat.intervalschedule",
+        "pk": 17,
+        "fields": {
+            "every": 14,
+            "period": "days"
+        }
+    },
+    {
+        "model": "django_celery_beat.intervalschedule",
+        "pk": 18,
+        "fields": {
+            "every": 21,
+            "period": "days"
+        }
+    },
+    {
+        "model": "django_celery_beat.intervalschedule",
+        "pk": 19,
+        "fields": {
+            "every": 30,
+            "period": "days"
+        }
+    },
+    {
+        "model": "django_celery_beat.intervalschedule",
+        "pk": 20,
+        "fields": {
+            "every": 60,
+            "period": "days"
+        }
+    },
+    {
+        "model": "django_celery_beat.intervalschedule",
+        "pk": 21,
+        "fields": {
+            "every": 90,
+            "period": "days"
+        }
+    },
+    {
+        "model": "django_celery_beat.intervalschedule",
+        "pk": 22,
+        "fields": {
+            "every": 120,
+            "period": "days"
+        }
+    },
+    {
+        "model": "django_celery_beat.intervalschedule",
+        "pk": 23,
+        "fields": {
+            "every": 150,
+            "period": "days"
+        }
+    },
+    {
+        "model": "django_celery_beat.intervalschedule",
+        "pk": 24,
+        "fields": {
+            "every": 180,
+            "period": "days"
+        }
+    },
+    {
+        "model": "django_celery_beat.intervalschedule",
+        "pk": 25,
+        "fields": {
+            "every": 360,
+            "period": "days"
+        }
+    },
+    {
+        "model": "django_celery_beat.intervalschedule",
+        "pk": 26,
+        "fields": {
+            "every": 60,
+            "period": "seconds"
+        }
+    },
+    {
+        "model": "django_celery_beat.crontabschedule",
+        "pk": 1,
+        "fields": {
+            "minute": "0",
+            "hour": "4",
+            "day_of_month": "*",
+            "month_of_year": "*",
+            "day_of_week": "*",
+            "timezone": "Asia/Omsk"
+        }
+    },
+    {
+        "model": "django_celery_beat.crontabschedule",
+        "pk": 2,
+        "fields": {
+            "minute": "*/15",
+            "hour": "*",
+            "day_of_month": "*",
+            "month_of_year": "*",
+            "day_of_week": "*",
+            "timezone": "UTC"
+        }
+    },
+    {
+        "model": "django_celery_beat.crontabschedule",
+        "pk": 3,
+        "fields": {
+            "minute": "*/30",
+            "hour": "*",
+            "day_of_month": "*",
+            "month_of_year": "*",
+            "day_of_week": "*",
+            "timezone": "UTC"
+        }
+    },
+    {
+        "model": "django_celery_beat.crontabschedule",
+        "pk": 4,
+        "fields": {
+            "minute": "0",
+            "hour": "*/1",
+            "day_of_month": "*",
+            "month_of_year": "*",
+            "day_of_week": "*",
+            "timezone": "UTC"
+        }
+    },
+    {
+        "model": "django_celery_beat.crontabschedule",
+        "pk": 5,
+        "fields": {
+            "minute": "0",
+            "hour": "*/2",
+            "day_of_month": "*",
+            "month_of_year": "*",
+            "day_of_week": "*",
+            "timezone": "UTC"
+        }
+    },
+    {
+        "model": "django_celery_beat.crontabschedule",
+        "pk": 6,
+        "fields": {
+            "minute": "0",
+            "hour": "*/3",
+            "day_of_month": "*",
+            "month_of_year": "*",
+            "day_of_week": "*",
+            "timezone": "UTC"
+        }
+    },
+    {
+        "model": "django_celery_beat.crontabschedule",
+        "pk": 7,
+        "fields": {
+            "minute": "0",
+            "hour": "*/4",
+            "day_of_month": "*",
+            "month_of_year": "*",
+            "day_of_week": "*",
+            "timezone": "UTC"
+        }
+    },
+    {
+        "model": "django_celery_beat.crontabschedule",
+        "pk": 8,
+        "fields": {
+            "minute": "0",
+            "hour": "*/5",
+            "day_of_month": "*",
+            "month_of_year": "*",
+            "day_of_week": "*",
+            "timezone": "UTC"
+        }
+    },
+    {
+        "model": "django_celery_beat.crontabschedule",
+        "pk": 9,
+        "fields": {
+            "minute": "0",
+            "hour": "*/6",
+            "day_of_month": "*",
+            "month_of_year": "*",
+            "day_of_week": "*",
+            "timezone": "UTC"
+        }
+    },
+    {
+        "model": "django_celery_beat.crontabschedule",
+        "pk": 10,
+        "fields": {
+            "minute": "0",
+            "hour": "*/12",
+            "day_of_month": "*",
+            "month_of_year": "*",
+            "day_of_week": "*",
+            "timezone": "UTC"
+        }
+    },
+    {
+        "model": "django_celery_beat.crontabschedule",
+        "pk": 11,
+        "fields": {
+            "minute": "0",
+            "hour": "0",
+            "day_of_month": "*/1",
+            "month_of_year": "*",
+            "day_of_week": "*",
+            "timezone": "UTC"
+        }
+    },
+    {
+        "model": "django_celery_beat.crontabschedule",
+        "pk": 12,
+        "fields": {
+            "minute": "0",
+            "hour": "0",
+            "day_of_month": "*/2",
+            "month_of_year": "*",
+            "day_of_week": "*",
+            "timezone": "UTC"
+        }
+    },
+    {
+        "model": "django_celery_beat.crontabschedule",
+        "pk": 13,
+        "fields": {
+            "minute": "0",
+            "hour": "0",
+            "day_of_month": "*/3",
+            "month_of_year": "*",
+            "day_of_week": "*",
+            "timezone": "UTC"
+        }
+    },
+    {
+        "model": "django_celery_beat.crontabschedule",
+        "pk": 14,
+        "fields": {
+            "minute": "0",
+            "hour": "0",
+            "day_of_month": "*/4",
+            "month_of_year": "*",
+            "day_of_week": "*",
+            "timezone": "UTC"
+        }
+    },
+    {
+        "model": "django_celery_beat.crontabschedule",
+        "pk": 15,
+        "fields": {
+            "minute": "0",
+            "hour": "0",
+            "day_of_month": "*/5",
+            "month_of_year": "*",
+            "day_of_week": "*",
+            "timezone": "UTC"
+        }
+    },
+    {
+        "model": "django_celery_beat.crontabschedule",
+        "pk": 16,
+        "fields": {
+            "minute": "0",
+            "hour": "0",
+            "day_of_month": "*/6",
+            "month_of_year": "*",
+            "day_of_week": "*",
+            "timezone": "UTC"
+        }
+    },
+    {
+        "model": "django_celery_beat.crontabschedule",
+        "pk": 17,
+        "fields": {
+            "minute": "0",
+            "hour": "0",
+            "day_of_month": "*/7",
+            "month_of_year": "*",
+            "day_of_week": "*",
+            "timezone": "UTC"
+        }
+    },
+    {
+        "model": "django_celery_beat.crontabschedule",
+        "pk": 18,
+        "fields": {
+            "minute": "0",
+            "hour": "0",
+            "day_of_month": "*/14",
+            "month_of_year": "*",
+            "day_of_week": "*",
+            "timezone": "UTC"
+        }
+    },
+    {
+        "model": "django_celery_beat.crontabschedule",
+        "pk": 19,
+        "fields": {
+            "minute": "0",
+            "hour": "0",
+            "day_of_month": "*/21",
+            "month_of_year": "*",
+            "day_of_week": "*",
+            "timezone": "UTC"
+        }
+    },
+    {
+        "model": "django_celery_beat.crontabschedule",
+        "pk": 20,
+        "fields": {
+            "minute": "0",
+            "hour": "0",
+            "day_of_month": "1",
+            "month_of_year": "*/1",
+            "day_of_week": "*",
+            "timezone": "UTC"
+        }
+    },
+    {
+        "model": "django_celery_beat.crontabschedule",
+        "pk": 21,
+        "fields": {
+            "minute": "*/1",
+            "hour": "*",
+            "day_of_month": "*",
+            "month_of_year": "*",
+            "day_of_week": "*",
+            "timezone": "UTC"
+        }
+    },
+    {
+        "model": "django_celery_beat.crontabschedule",
+        "pk": 22,
+        "fields": {
+            "minute": "0",
+            "hour": "4",
+            "day_of_month": "*/1",
+            "month_of_year": "*",
+            "day_of_week": "*",
+            "timezone": "UTC"
+        }
+    },
+    {
+        "model": "django_celery_beat.periodictasks",
+        "pk": 1,
+        "fields": {
+            "last_update": "2024-06-25T10:03:47.857Z"
+        }
+    },
+    {
+        "model": "django_celery_beat.periodictask",
+        "pk": 1,
+        "fields": {
+            "name": "celery.backend_cleanup",
+            "task": "celery.backend_cleanup",
+            "interval": null,
+            "crontab": 1,
+            "solar": null,
+            "clocked": null,
+            "args": "[]",
+            "kwargs": "{}",
+            "queue": null,
+            "exchange": null,
+            "routing_key": null,
+            "headers": "{}",
+            "priority": null,
+            "expires": null,
+            "expire_seconds": 43200,
+            "one_off": false,
+            "start_time": null,
+            "enabled": true,
+            "last_run_at": "2024-06-24T22:26:41.732Z",
+            "total_run_count": 4,
+            "date_changed": "2024-06-24T22:55:24.876Z",
+            "description": ""
+        }
+    },
+    {
+        "model": "django_celery_beat.periodictask",
+        "pk": 34,
+        "fields": {
+            "name": "check_non_verify_user_delete",
+            "task": "users.tasks.delete_non_verify_users",
+            "interval": null,
+            "crontab": 22,
+            "solar": null,
+            "clocked": null,
+            "args": "[]",
+            "kwargs": "{}",
+            "queue": null,
+            "exchange": null,
+            "routing_key": null,
+            "headers": "{}",
+            "priority": null,
+            "expires": null,
+            "expire_seconds": null,
+            "one_off": false,
+            "start_time": null,
+            "enabled": true,
+            "last_run_at": null,
+            "total_run_count": 0,
+            "date_changed": "2024-06-24T22:33:52.716Z",
+            "description": ""
+        }
+    },
+    {
+        "model": "django_celery_beat.periodictask",
+        "pk": 35,
+        "fields": {
+            "name": "mail_center.sendingmessage_1",
+            "task": "mail_center.tasks.send",
+            "interval": 9,
+            "crontab": null,
+            "solar": null,
+            "clocked": null,
+            "args": "[]",
+            "kwargs": "{\"template_render\": \"mail_form/mail_send_form.html\", \"object_unique_name\": \"mail_center.sendingmessage_1\"}",
+            "queue": null,
+            "exchange": null,
+            "routing_key": null,
+            "headers": "{}",
+            "priority": null,
+            "expires": null,
+            "expire_seconds": null,
+            "one_off": false,
+            "start_time": "2024-06-26T10:03:00Z",
+            "enabled": true,
+            "last_run_at": null,
+            "total_run_count": 0,
+            "date_changed": "2024-06-25T10:03:47.856Z",
+            "description": ""
+        }
+    },
+    {
+        "model": "mess.messageinfo",
+        "pk": 1,
+        "fields": {
+            "employee": 1,
+            "title_message": "test",
+            "text_message": "test",
+            "slug": "1-test",
+            "time_create": "2024-06-24T22:10:34.947Z",
+            "time_edit": "2024-06-24T22:10:34.947Z",
+            "actual": true
+        }
+    },
+    {
+        "model": "mess.messageinfo",
+        "pk": 2,
+        "fields": {
+            "employee": 1,
+            "title_message": "Тест сообщения",
+            "text_message": "Тест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщения Тест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщения Тест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщенияТест сообщения",
+            "slug": "1-test-soobsheniya",
+            "time_create": "2024-05-15T12:38:58.184Z",
+            "time_edit": "2024-05-15T12:38:58.184Z",
+            "actual": true
+        }
+    },
+    {
+        "model": "mess.messageinfo",
+        "pk": 3,
+        "fields": {
+            "employee": 1,
+            "title_message": "Какое то сообщение",
+            "text_message": "Какое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщение Какое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщениеКакое то сообщение",
+            "slug": "1-kakoe-to-soobshenie",
+            "time_create": "2024-05-15T13:06:04.574Z",
+            "time_edit": "2024-05-15T13:06:04.574Z",
+            "actual": true
+        }
+    },
+    {
+        "model": "mess.messageinfo",
+        "pk": 4,
+        "fields": {
+            "employee": 1,
+            "title_message": "Какое то сообщение",
+            "text_message": "Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание",
+            "slug": "root-kakoe-to-soobschenie",
+            "time_create": "2024-05-15T18:34:37.974Z",
+            "time_edit": "2024-05-15T18:34:37.974Z",
+            "actual": true
+        }
+    },
+    {
+        "model": "mess.messageinfo",
+        "pk": 5,
+        "fields": {
+            "employee": 1,
+            "title_message": "Какое то сообщение",
+            "text_message": "Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание Содержание",
+            "slug": "1-kakoe-to-soobschenie",
+            "time_create": "2024-05-15T18:34:58.130Z",
+            "time_edit": "2024-05-15T20:18:27.782Z",
+            "actual": true
+        }
+    },
+    {
+        "model": "mess.messageinfo",
+        "pk": 10,
+        "fields": {
+            "employee": 1,
+            "title_message": "fdsafdsgagdsag",
+            "text_message": "gdsagdsgasd",
+            "slug": "2-fdsafdsgagdsag",
+            "time_create": "2024-05-16T19:34:44.273Z",
+            "time_edit": "2024-05-16T19:34:44.273Z",
+            "actual": true
+        }
+    },
+    {
+        "model": "mess.messageinfo",
+        "pk": 11,
+        "fields": {
+            "employee": 1,
+            "title_message": "Норм сообщение",
+            "text_message": "ОАЫЩОАЛДЫФОАДЫОАШДЫ",
+            "slug": "1-norm-soobschenie",
+            "time_create": "2024-06-14T21:08:33.107Z",
+            "time_edit": "2024-06-14T21:08:33.107Z",
+            "actual": true
+        }
+    },
+    {
+        "model": "mess.messageinfo",
+        "pk": 12,
+        "fields": {
+            "employee": 1,
+            "title_message": "testMessage",
+            "text_message": "TEstMESSAGE",
+            "slug": "1-testmessage",
+            "time_create": "2024-06-15T21:22:15.786Z",
+            "time_edit": "2024-06-15T21:22:15.786Z",
+            "actual": true
+        }
+    },
+    {
+        "model": "mess.messageinfo",
+        "pk": 14,
+        "fields": {
+            "employee": 2,
+            "title_message": "test",
+            "text_message": "test",
+            "slug": "2-test",
+            "time_create": "2024-06-18T17:11:01.289Z",
+            "time_edit": "2024-06-18T17:11:01.289Z",
+            "actual": true
+        }
+    },
+    {
+        "model": "mess.messageinfo",
+        "pk": 15,
+        "fields": {
+            "employee": 3,
+            "title_message": "test",
+            "text_message": "test",
+            "slug": "3-test",
+            "time_create": "2024-06-24T22:54:09.952Z",
+            "time_edit": "2024-06-24T22:54:09.952Z",
+            "actual": true
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$iw6CI7lJbdhVhW1FLcYqzf$+EBWXJGWMe7wmEXClWevHQAUDLRzMxihX0kwI6da4BQ=",
+            "last_login": "2024-06-25T13:52:53.455Z",
+            "is_superuser": true,
+            "username": "root",
+            "first_name": "",
+            "last_name": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-06-14T18:45:31Z",
+            "image": "",
+            "email": "root@gmail.com",
+            "is_verify_email": true,
+            "phone": null,
+            "country": null,
+            "gender": null,
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$7wXqZ8jqk6XsSyXPGJ3SKV$X+8NmOjdCxvP70M3MNbdocPw3zNlXPPW0LA4a/Qakbw=",
+            "last_login": "2024-06-25T10:27:38.229Z",
+            "is_superuser": false,
+            "username": "alex",
+            "first_name": "",
+            "last_name": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-06-16T12:18:50Z",
+            "image": "",
+            "email": "alex@gmail.com",
+            "is_verify_email": true,
+            "phone": null,
+            "country": null,
+            "gender": null,
+            "groups": [
+                2
+            ],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$mZ0Am6yK5Xp324AbmlMlid$rMTI4mzjYBH6AMkl+2qVkiz1Ye0mas6dvHN87r6M1Bc=",
+            "last_login": "2024-06-24T22:54:00.390Z",
+            "is_superuser": false,
+            "username": "sumaro",
+            "first_name": "",
+            "last_name": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-06-24T22:53:46.587Z",
+            "image": "",
+            "email": "sumaro@gmail.com",
+            "is_verify_email": true,
+            "phone": "+79132459055",
+            "country": null,
+            "gender": null,
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 4,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$eFIltlUh6iOFMidnAMTkqg$qNOrCH7eNK4hLSKB7KIGdM6x/Az18oWOQxWTmBYlZxo=",
+            "last_login": "2024-06-25T13:53:40.156Z",
+            "is_superuser": false,
+            "username": "content",
+            "first_name": "",
+            "last_name": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-06-25T13:52:39Z",
+            "image": "",
+            "email": "content@gmail.com",
+            "is_verify_email": true,
+            "phone": "+79136623456",
+            "country": null,
+            "gender": null,
+            "groups": [
+                1
+            ],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "our_clients.clientservise",
+        "pk": 1,
+        "fields": {
+            "employee": 1,
+            "client_mail": "fsafs@fadsfa.fas",
+            "client_first_name": "fsafsf",
+            "client_last_name": "fasfasF",
+            "client_middle_name": null,
+            "client_info": "FASFDSFASDFADSFDSFADSFADSF",
+            "time_create": "2024-05-16T17:29:46.995Z",
+            "time_edit": "2024-05-16T18:13:05.070Z",
+            "actual": true
+        }
+    },
+    {
+        "model": "our_clients.clientservise",
+        "pk": 2,
+        "fields": {
+            "employee": 1,
+            "client_mail": "fsf@fasdfsd.faf",
+            "client_first_name": "fdsafdsf",
+            "client_last_name": "fdasfds",
+            "client_middle_name": null,
+            "client_info": "fsdafdsafasdf",
+            "time_create": "2024-05-16T17:30:50.902Z",
+            "time_edit": "2024-06-14T21:17:14.912Z",
+            "actual": true
+        }
+    },
+    {
+        "model": "our_clients.clientservise",
+        "pk": 4,
+        "fields": {
+            "employee": 1,
+            "client_mail": "fafafsf@faf.fsf",
+            "client_first_name": "fasfasf",
+            "client_last_name": "fasfasfasfs",
+            "client_middle_name": null,
+            "client_info": "fsdfdsafdsafadfdfsdfdsafdsafadfdfsdfdsafdsafadfdfsdfdsafdsafadfdfsdfdsafdsafadfdfsdfdsafdsafadfdfsdfdsafdsafadfdfsdfdsafdsafadfdfsdfdsafdsafadfdfsdfdsafdsafadfdfsdfdsafdsafadfdfsdfdsafdsafadfdfsdfdsafdsafadfdfsdfdsafdsafadfdfsdfdsafdsafadfdfsdfdsafdsafadfdfsdfdsafdsafadfdfsdfdsafdsafadfdfsdfdsafdsafadfdfsdfdsafdsafadfdfsdfdsafdsafadfdfsdfdsafdsafadfdfsdfdsafdsafadfdfsdfdsafdsafadfdfsdfdsafdsafadfdfsdfdsafdsafadfd",
+            "time_create": "2024-05-16T17:49:58.072Z",
+            "time_edit": "2024-06-14T21:17:19.808Z",
+            "actual": true
+        }
+    },
+    {
+        "model": "our_clients.clientservise",
+        "pk": 5,
+        "fields": {
+            "employee": 1,
+            "client_mail": "fdsfsl@dsadl.dsad",
+            "client_first_name": "dsadsff",
+            "client_last_name": "fdsfdsaf",
+            "client_middle_name": null,
+            "client_info": "fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa fsfsa",
+            "time_create": "2024-05-16T18:02:12.360Z",
+            "time_edit": "2024-05-16T18:13:11.432Z",
+            "actual": true
+        }
+    },
+    {
+        "model": "our_clients.clientservise",
+        "pk": 6,
+        "fields": {
+            "employee": null,
+            "client_mail": "yukiu217@gmail.com",
+            "client_first_name": "Aleex",
+            "client_last_name": "Pavlov",
+            "client_middle_name": null,
+            "client_info": "Это я",
+            "time_create": "2024-06-15T21:22:54.679Z",
+            "time_edit": "2024-06-15T21:22:54.679Z",
+            "actual": false
+        }
+    },
+    {
+        "model": "our_clients.clientservise",
+        "pk": 7,
+        "fields": {
+            "employee": null,
+            "client_mail": "test@fsaf.ds",
+            "client_first_name": "fasfs",
+            "client_last_name": "fsaf",
+            "client_middle_name": null,
+            "client_info": "",
+            "time_create": "2024-06-16T12:44:16.701Z",
+            "time_edit": "2024-06-16T12:44:16.701Z",
+            "actual": true
+        }
+    },
+    {
+        "model": "our_clients.clientservise",
+        "pk": 10,
+        "fields": {
+            "employee": 2,
+            "client_mail": "dasdfs@cdf.fs",
+            "client_first_name": "fsafas",
+            "client_last_name": "fsaf",
+            "client_middle_name": null,
+            "client_info": "",
+            "time_create": "2024-06-18T17:21:40.903Z",
+            "time_edit": "2024-06-18T18:05:32.793Z",
+            "actual": true
+        }
+    },
+    {
+        "model": "our_clients.clientservise",
+        "pk": 11,
+        "fields": {
+            "employee": 3,
+            "client_mail": "hflsaeif@fsa.fasf",
+            "client_first_name": "fdsaf",
+            "client_last_name": "fsad",
+            "client_middle_name": null,
+            "client_info": "",
+            "time_create": "2024-06-24T22:54:21.036Z",
+            "time_edit": "2024-06-24T22:54:21.036Z",
+            "actual": true
+        }
+    },
+    {
+        "model": "our_clients.clientservise",
+        "pk": 12,
+        "fields": {
+            "employee": 3,
+            "client_mail": "nfd@fkf.fa",
+            "client_first_name": "fdsf",
+            "client_last_name": "fsad",
+            "client_middle_name": null,
+            "client_info": "",
+            "time_create": "2024-06-24T22:54:29.397Z",
+            "time_edit": "2024-06-24T22:54:29.397Z",
+            "actual": true
+        }
+    },
+    {
+        "model": "mail_center.sendingmessage",
+        "pk": 1,
+        "fields": {
+            "owner_send": 1,
+            "message": 15,
+            "date_first_send": "2024-06-26T10:03:00Z",
+            "periodicity": "12:00:00",
+            "slug": "1-root-1-test",
+            "enabled": true,
+            "status": "run",
+            "clients": [
+                4,
+                5
+            ]
+        }
+    },
+    {
+        "model": "blog.postcomment",
+        "pk": 1,
+        "fields": {
+            "post": 1,
+            "parent": null,
+            "user_name": 2,
+            "image": "",
+            "text": "test message",
+            "time_published": "2024-06-24T22:46:17.655Z",
+            "time_edit": "2024-06-24T22:46:17.655Z",
+            "is_edit": false,
+            "text_to_edit": "Изменено:",
+            "likes": 0,
+            "is_published": true
+        }
+    },
+    {
+        "model": "blog.postcomment",
+        "pk": 2,
+        "fields": {
+            "post": 1,
+            "parent": 1,
+            "user_name": 2,
+            "image": "",
+            "text": "second message",
+            "time_published": "2024-06-24T22:46:28.380Z",
+            "time_edit": "2024-06-24T22:46:28.380Z",
+            "is_edit": false,
+            "text_to_edit": "Изменено:",
+            "likes": 0,
+            "is_published": true
+        }
+    },
+    {
+        "model": "blog.posts",
+        "pk": 1,
+        "fields": {
+            "title": "testt",
+            "name_user": 1,
+            "image": "",
+            "description": "testt",
+            "slug": "sumaro-testt",
+            "views": 14,
+            "likes": 0,
+            "time_published": "2024-06-24T22:15:36.647Z",
+            "time_edit": null,
+            "is_edit": false,
+            "text_to_edit": "Изменено:",
+            "comment_count": 2,
+            "is_published": true
+        }
+    },
+    {
+        "model": "blog.posts",
+        "pk": 2,
+        "fields": {
+            "title": "Статья",
+            "name_user": 1,
+            "image": "posts/2024/06/25/IMG_6002.webp",
+            "description": "Куда выбрасывать батарейки, всех волнует этот вопрос. Ответ кроется тут",
+            "slug": "root-statya",
+            "views": 6,
+            "likes": 0,
+            "time_published": "2024-06-25T09:46:38.756Z",
+            "time_edit": null,
+            "is_edit": false,
+            "text_to_edit": "Изменено:",
+            "comment_count": 0,
+            "is_published": true
+        }
+    },
+    {
+        "model": "blog.posts",
+        "pk": 3,
+        "fields": {
+            "title": "Лучшие компьютеры на сегодня",
+            "name_user": 1,
+            "image": "posts/2024/06/25/camphoto_758783491.jpeg",
+            "description": "Лучшие компьютеры, как они называются? Какова их цена? На что они способны, ответ - тут",
+            "slug": "root-luchshie-kompyuteryi-na-segodnya",
+            "views": 10,
+            "likes": 0,
+            "time_published": "2024-06-25T09:48:55.157Z",
+            "time_edit": null,
+            "is_edit": false,
+            "text_to_edit": "Изменено:",
+            "comment_count": 0,
+            "is_published": true
+        }
+    }
+]
